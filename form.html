@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css" />
+  </head>
+  <body>
+    <div class="Head">
+      <h1 class="userList">User List</h1>
+      <div class="right">
+        <button class="new"><i class="fa-solid fa-plus"></i> ADD</button>
+        <div>
+          <button class="light"><i class="fa-solid fa-sun"></i> LIGHT</button>
+          <button class="dark">DARK <i class="fa-solid fa-moon"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="head2">
+        <div class="">
+            <select name="" id="" class="select1">
+                <option value="all">All status</option>
+                <option value="active">Active</option>
+                <option value="inactive">Inavtive</option>
+            </select>
+            <select name="" id="" class="select2">
+                <option value="all">All cities</option>
+                <option value="Dushanbe">Dushanbe</option>
+                <option value="Khujand">Khujand</option>
+                <option value="Bokhtar">Bokhtar</option>
+            </select>
+        </div>
+        <input type="text" name="" id="" class="righth2" placeholder="Search...">
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <td><i class="fa-solid fa-user"></i> Name</td>
+                <td><i class="fa-solid fa-lock"></i> City</td>
+                <td><i class="fa-solid fa-clock"></i> Status</td>
+                <td><i class="fa-solid fa-phone"></i> Phone</td>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+        <dialog class= "dialog1">
+      <div class="divdialog1">
+       <div class="div2" style="display: flex;">
+         <h1 class="user">ADD USER</h1>
+        <i class="fa-solid fa-delete-left delet"></i>
+       </div>
+        <input type="text" placeholder="IMG url...." class="inp1">
+        <input type="text" placeholder="Full Name" class="inp2">
+        <input type="text" placeholder="E-mail...." class="inp3">
+        <input type="text" placeholder="city" class="inp4">
+        <select name="" id="" class="inp5">
+            <option value="active">Active</option>
+            <option value="inactive">Inactive</option>
+
+        </select>
+        <input type="text" placeholder="Phone" class="inp6">
+        
+        <div style="display: flex; text-align: start;width: 100%;justify-content: start;">
+         <button class="save">SAVE</button>
+        <button class="cenical">CENICAL</button></div>
+      </div>
+    </dialog>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

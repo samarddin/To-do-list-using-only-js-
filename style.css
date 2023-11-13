@@ -1,0 +1,709 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+
+  margin-top: 20px;
+}
+.userList {
+  color: var(--light-dark, #343a40);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+  color: #343a40;
+}
+.right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+.new {
+  width: 104px;
+  height: 42px;
+  padding: 8px, 22px, 8px, 22px;
+  border-radius: 4px;
+  border-radius: 4px;
+  background: var(--primary-main, #2196f3);
+
+  /* elevation/2 */
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.dark {
+  border-radius: 4px;
+  width: 114px;
+  height: 42px;
+  padding: 9px, 24px, 9px, 24px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.light {
+  border-radius: 4px;
+  width: 114px;
+  height: 42px;
+  padding: 9px, 24px, 9px, 24px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.08);
+}
+.head2 {
+  display: flex;
+  padding: 16px 0px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  width: Fill 1340px;
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  padding: 16px, 0px, 16px, 0px;
+  gap: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.lefth2 {
+  width: 1024px;
+  height: 56px;
+  gap: 16px;
+  background-color: white;
+}
+.righth2 {
+  width: 300px;
+  height: 56px;
+  gap: 16px;
+
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 30px;
+  border: #2196f3 1px solid;
+  color: #2196f3;
+   box-shadow: 0px 0px 3px 0px rgb(125, 122, 122);
+}
+
+::placeholder {
+  color: #3d474f;
+}
+.select1 {
+  width: 250px;
+  height: 56px;
+  border: #2196f3 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 10px;
+   box-shadow: 0px 0px 3px 0px rgb(125, 122, 122);
+}
+.select2 {
+  width: 250px;
+  height: 56px;
+  border: #2196f3 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 10px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 3px 0px rgb(125, 122, 122);
+}
+.dialog4 {
+  margin-left: 70%;
+  height: 100vh;
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 30%;
+}
+.divdialog4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.divdialog4 i {
+  font-size: 30px;
+  color: rgb(42, 42, 42);
+}
+.divabout {
+  text-align: start;
+  padding-left: 0px;
+  height: 14vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.divabout p {
+  padding-left: 30px;
+}
+.divabout div {
+  margin-left: 15px;
+}
+.divd4 {
+  background: #37b553;
+  margin-bottom: 50px;
+}
+.hr1 {
+  margin-top: 30px;
+  color: black;
+}
+.imgdialog4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.table {
+  width: 1340px;
+
+  border: 1px solid #f8f9fd;
+  background-color: rgb(255, 255, 255);
+  width: 1340px;
+  border: 1px;
+  margin: auto;
+  box-shadow: 1px 1px 10px 1px rgb(196, 195, 195);
+}
+.table thead {
+  font-size: 20px;
+  color: #40464c;
+}
+.img2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.divuser td {
+  height: auto;
+}
+.tduser {
+  background: black;
+}
+
+.divnames {
+}
+.active {
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+table {
+  border-radius: 12px;
+}
+.active {
+  font-size: 21px;
+  background-color: rgb(9, 176, 9);
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border-radius: 6px;
+}
+.inactive {
+  font-size: 21px;
+  background-color: rgb(98, 98, 98);
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border-radius: 6px;
+}
+.table .divuser {
+  display: flex;
+}
+table tbody td {
+  padding-left: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: rgb(180, 173, 173) 1px solid;
+}
+.divuser p {
+  margin-left: 10px;
+}
+.divuser h3 {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+table {
+  padding: 20px;
+}
+thead td {
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.dialog1 {
+  width: 100vw;
+  height: 200vh;
+  background: #00000061;
+  border: none;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+}
+.divdialog1 {
+  display: flex;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  height: 80vh;
+  padding-top: 30px;
+  border-radius: 10px;
+  align-items: center;
+}
+.divdialog1 input {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* components/input-text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  outline: none;
+  margin-top: 30px;
+  width: 70%;
+  padding: 10px;
+  border: #2196f3 0.6px solid;
+  border-radius: 6px;
+}
+.divdialog1 select {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-feature-settings: "clig" off, "liga" off;
+
+  padding: 10px;
+  /* components/input-text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  outline: none;
+  margin-top: 30px;
+  width: 74%;
+  padding: 15px;
+  border: #2196f3 0.6px solid;
+  border-radius: 6px;
+}
+.divdialog1 button {
+  color: var(--primary-main, #2196f3);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* components/button-large */
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  background: #2196f3;
+  color: white;
+  border: none;
+  margin-left: 80px;
+  margin-top: 50px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  align-items: center;
+}
+.div2 {
+  width: 90%;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.delet {
+  font-size: 30px;
+  padding-left: 200px;
+  margin-top: 3px;
+}
+.elip {
+  font-size: 23px;
+  font-weight: 100;
+  color: rgb(76, 72, 72);
+}
+.dialog2 {
+  background: #ffffff;
+  outline: none;
+  border: none;
+  margin-left: 1090px;
+  margin-top: 300px;
+  width: 300px;
+  padding-top: 30px;
+  height: 20vh;
+  border-radius: 10px;
+}
+.info {
+  color: #05093a;
+  margin: auto;
+  text-align: center;
+
+  padding: 10px;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 50px;
+  display: flex;
+  width: 70%;
+  outline: none;
+  border: none;
+  background: #00000000;
+}
+.x {
+  margin-left: 260px;
+  color: rgb(82, 79, 79);
+}
+.info i {
+  padding-right: 10px;
+  color: gray;
+  font-size: 15px;
+}
+.info h3 {
+  color: rgb(86, 82, 82);
+}
+.edit {
+  color: #05093a;
+  margin-left: 65px;
+  text-align: center;
+
+  padding: 10px;
+  justify-content: start;
+
+  padding-right: 50px;
+  display: flex;
+  width: 50%;
+  outline: none;
+  border: none;
+
+  margin-top: 10px;
+  background-color: rgba(255, 0, 0, 0);
+}
+.edit i {
+  padding-right: 10px;
+  color: rgb(124, 122, 122);
+  font-size: 15px;
+}
+.edit h3 {
+  color: rgb(86, 82, 82);
+  margin-left: 17px;
+}
+.delett {
+  color: #05093a;
+  margin-left: 65px;
+  text-align: center;
+
+  padding: 10px;
+  justify-content: start;
+
+  padding-right: 50px;
+  display: flex;
+  width: 50%;
+  outline: none;
+  border: none;
+
+  margin-top: 10px;
+  background-color: rgba(255, 0, 0, 0);
+}
+.delett i {
+  padding-right: 10px;
+  color: rgb(247, 0, 0);
+  font-size: 15px;
+}
+.delett h3 {
+  color: rgb(86, 82, 82);
+  margin-left: 17px;
+}
+.dialog3 {
+  width: 100vw;
+  height: 200vh;
+  background: #00000061;
+  border: none;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+}
+.divdialog3 {
+  display: flex;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  height: 80vh;
+  border-radius: 10px;
+  align-items: center;
+}
+.divdialog3 input {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* components/input-text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  outline: none;
+  margin-top: 30px;
+  width: 70%;
+  padding: 10px;
+  border: #2196f3 0.6px solid;
+  border-radius: 6px;
+}
+.divdialog3 select {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-feature-settings: "clig" off, "liga" off;
+
+  padding: 10px;
+  /* components/input-text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  outline: none;
+  margin-top: 30px;
+  width: 74%;
+  padding: 15px;
+  border: #2196f3 0.6px solid;
+  border-radius: 6px;
+}
+.divdialog3 button {
+  color: var(--primary-main, #2196f3);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* components/button-large */
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  background: #2196f3;
+  color: white;
+  border: none;
+  margin-right: 350px;
+  margin-top: 50px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+.div3 {
+  width: 90%;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-top: 30px;
+  height: 9vh;
+}
+.divd4 {
+  font-size: 21px;
+  background-color: rgb(9, 176, 9);
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.divd44 {
+  font-size: 21px;
+  background-color: rgb(44, 53, 49);
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.boddy {
+  background: #1d1c1c;
+  color: white;
+}
+.lightt {
+  background-color: #f6f2f2;
+  color: rgb(19, 16, 16);
+  box-shadow: 1px 1px 10px 1px black;
+}
+.darkk {
+  background-color: #454444;
+  color: rgb(254, 254, 254);
+  box-shadow: 1px 1px 10px 1px black;
+}
+.lefth22 {
+  background: #1d1c1c;
+}
+.select1d {
+  background: #201f1f;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 7px 0px#010101;
+}
+.tablee {
+  background-color: #1d1c1c;
+  box-shadow: 2px 2px 100px 2px black;
+}
+.tablee .dialog4 {
+  background-color: #1d1c1c;
+  color: white;
+  box-shadow: 2px 2px 100px 2px black;
+}
+.tablee .dialog2 {
+  background-color: #1d1c1c;
+  color: white;
+  box-shadow: 2px 2px 100px 2px black;
+}
+.tablee .dialog2 h3 {
+  background-color: #1d1c1c;
+  color: rgb(182, 173, 173);
+
+}
+.tablee .dialog3 div{
+  background-color: #1d1c1c;
+  color: rgb(182, 173, 173);
+
+}
+.tablee dialog img {
+  background-color: #1d1c1c;
+  color: white;
+  box-shadow: 2px 2px 10px 2px black;
+
+
+}
+.tablee .dialog4 i {
+ 
+color: white;
+}
+.tablee tbody td {
+  border-top: 1px solid rgb(19, 18, 18);
+}
+
+.new2 {
+  background-color: #454444;
+  box-shadow: 1px 1px 10px 1px black;
+}
+.ddialog1 div {
+  background-color: #1d1c1c;
+  color: white;
+}
+.ddialog1 div input {
+  background-color: #1d1c1c;
+  color: white;
+}
+.ddialog1 div select {
+  background-color: #1d1c1c;
+  color: white;
+}
+.ddialog1 div button {
+  background-color: #1d1c1c;
+  color: white;
+  box-shadow: 2px 2px 10px 2px black;
+}
+.tablee .dialog3 div {
+  background-color: #1d1c1c;
+  color: white;
+}
+.tablee .dialog3 div input {
+  background-color: #1d1c1c;
+  color: white;
+}
+.tablee .dialog3 div select {
+  background-color: #1d1c1c;
+  color: white;
+}
+.tablee .dialog3 div button {
+  background-color: #1d1c1c;
+  color: white;
+  box-shadow: 2px 2px 10px 2px black;
+}
+.userl2{
+  color: white;
+}
+.tablee thead td{
+  color: rgb(163, 163, 163);
+}
+.tablee tbody td i{
+  color: rgb(163, 163, 163);
+}
+.divfor{
+  background: red;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background: none;
+  margin-left: 20px;
+}
+.divfor button:first-child{
+  outline: none;
+  border: rgb(89, 110, 216) 1px solid;
+  color: rgb(89, 110, 216);
+  background: none;
+  border-radius: 6px;
+  width: 100px;
+  font-size: 20px; 
+  padding: 10px;
+ 
+}
+.divfor button:last-child{
+  outline: none;
+  border: rgb(188, 62, 62) 1px solid;
+  color:  rgb(188, 62, 62) ;
+  background: none;
+  border-radius: 6px;
+  width: 100px;
+  font-size: 20px; 
+  padding: 10px;
+  
+}
+.tablee .dialog4 button {
+  box-shadow: 1px 1px 10px 1px black;
+}
+/* .table{
+  box-shadow: 1px 1px 80px 1px rgb(224, 216, 216);
+  background-color: #fff;
+}
+.head2 select {
+  box-shadow: 1px 1px 10px 1px rgb(224, 216, 216);
+  
+}
+.head2 input {
+  box-shadow: 1px 1px 10px 1px rgb(224, 216, 216);
+  
+} */
